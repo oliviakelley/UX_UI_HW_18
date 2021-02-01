@@ -1,0 +1,38 @@
+.inline-block{
+
+    
+    vertical-align:top;
+}
+.inline-block ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  
+.inline-block ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.inline-block ul li a:hover:not(.active) {
+    background-color: #FD4F24;
+  }
+  
+  .active {
+    background-color: #FD4F24;
+
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap:1em;
+  }
