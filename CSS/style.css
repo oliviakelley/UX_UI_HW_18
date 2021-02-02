@@ -1,5 +1,11 @@
 
-
+body{
+    background-image: url(../Subtract.svg);
+    background-position-x: -40px;
+    background-repeat:no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    
+}
 h1{
     font-family:Arial, Helvetica, sans-serif;
     text-align:right;
@@ -11,7 +17,8 @@ h2{
 }
 
 .inline-block{
-
+   display:flex;
+   justify-content:flex-end;
     
     vertical-align:top;
 }
@@ -42,30 +49,31 @@ h2{
 
   }
 
-.img {
-    background-image: url(Subtract.svg);
+.skills {
+   
+    color:white;
+    widows: 60px;
 
-    background-repeat:no-repeat;
-    background-position:center;
-
-
-
-}
-
-.skills{
-    color:purple
-}
 
 
 }
+
+
+
+
+
 
 .container-1 {
     display:flex;
+    flex-direction: column;
+    width:40%;
 }
 
+.main-content {
+    display:flex;
+}
 .container-1 div{
-    border:4px rgb(95, 20, 20) solid;
-    padding:30px;
+    
 }
 .box-1{
   
@@ -85,5 +93,4 @@ h2{
       display:flex;
       justify-content: flex-end;
 
-  }
 }
