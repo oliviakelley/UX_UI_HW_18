@@ -1,8 +1,23 @@
-.inline-block{
 
-    
-    vertical-align:top;
+body{
+
+    background-image: url(../Subtract.svg);
+    background-position-x: -40px;
+    background-repeat:no-repeat;
+    font-family: 'Montserrat', sans-serif;
 }
+
+h1{
+  color:white;
+  
+}
+
+.inline-block{
+  display:flex;
+  justify-content:flex-end;
+  vertical-align:top;
+}
+
 .inline-block ul {
     display: flex;
     list-style-type: none;
@@ -35,4 +50,47 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
     row-gap:1em;
+  }
+
+  @media only screen and (max-width:600){
+
+
+
+    <div class="wrapper">
+       flex-direction:column;
+
+        <div><img src="mockup1.jpg" alt=""> 
+         flex-direction:column;
+
+         </div>
+
+        <div><img src="mockup2.jpg">
+         flex-direction:column;
+        
+        </div>
+
+        <div><img src="mockup3.jpg">
+         flex-direction:column;
+
+        </div>
+        
+        <div><img src="mockup4.jpg">
+         flex-direction:column;
+        
+        </div>
+        
+        <div><img src="mockup5.jpg">
+         flex-direction:column;
+
+        </div>
+        <div><img src="mockup6.jpg">
+         flex-direction:column;
+        </div>
+
+        
+
+        
+      </div>
+
+
   }

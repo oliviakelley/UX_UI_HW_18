@@ -14,6 +14,8 @@ h1{
 h2{
     font-family: Arial, Helvetica, sans-serif;
     text-align:left;
+    padding:20px;
+    margin:20px;
 }
 
 .inline-block{
@@ -53,6 +55,7 @@ h2{
    
     color:white;
     widows: 60px;
+    width:40%;
 
 
 
@@ -60,6 +63,16 @@ h2{
 
 
 
+
+
+
+
+
+.main-content {
+    display:flex;
+    flex-wrap: wrap;
+    
+}
 
 
 
@@ -67,18 +80,20 @@ h2{
     display:flex;
     flex-direction: column;
     width:40%;
+    align:right;
+    justify-content:right;
+    margin-right:0px;
+    widows: 60px;
 }
 
-.main-content {
-    display:flex;
-}
-.container-1 div{
     
-}
+
 .box-1{
   
       display: flex;
-      justify-content:flex-end;
+      justify-content:center;
+      padding: 20px;
+      
 
 
   }
@@ -86,11 +101,64 @@ h2{
   .box-2{
       display: flex;
       justify-content:flex-end;
+      align:right;
+      
     
   }
 
   .box-3{
       display:flex;
-      justify-content: flex-end;
+      justify-content: center;
+
+
+  }
+
+
+@media only screen and (max-width:600){
+
+.main-content {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    
+}
+
+
+
+.container-1 {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    align:right;
+    justify-content:right;
+    margin-right:0px;
+    widows: 60px;
+    color: #FD4F24;
+}
+
+.box-1{
+  
+      display: flex;
+      justify-content:center;
+      padding: 20px;
+      color: #FD4F24;
+
+
+  }
+
+  .box-2{
+      display: flex;
+      justify-content:flex-end;
+      align:right;
+      color: #FD4F24;
+    
+  }
+
+  .box-3{
+      display:flex;
+      justify-content: center;
+      color: #FD4F24;
+
+  }
 
 }
